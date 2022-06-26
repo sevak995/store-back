@@ -1,0 +1,128 @@
+[
+  {
+    "name": "Հայը",
+    "category": "Fiction",
+    "price": 2.2,
+    "image": "/images/1.png"
+  },
+  {
+    "name": "Գաղտնիքների Տիրակալը",
+    "category": "Fiction",
+    "price": 1.75,
+    "image": "/images/6.png"
+  },
+  {
+    "name": "Խաղասրահ Պաչինկո",
+    "category": "Fiction",
+    "price": 1.85,
+    "image": "/images/2.png"
+  },
+  {
+    "name": "Ոխերիմ քույրեր",
+    "category": "Fiction",
+    "price": 1.95,
+    "image": "/images/3.png"
+  },
+  {
+    "name": "Ապագայի համառոտ պատմություն",
+    "category": "Fiction",
+    "price": 2.1,
+    "image": "/images/7.png"
+  },
+  {
+    "name": "Խաչագողի հիշատակարանը",
+    "category": "Fiction",
+    "price": 2.25,
+    "image": "/images/12.png"
+  },
+  {
+    "name": "Վերջին փորձությունը",
+    "category": "Historical",
+    "price": 2.5,
+    "image": "/images/4.png"
+  },
+  {
+    "name": "Կաթնծիրից անդին",
+    "category": "Historical",
+    "price": 1.8,
+    "image": "/images/5.png"
+  },
+  {
+    "name": "Քաղաքներ և տարիներ",
+    "category": "Historical",
+    "price": 1.95,
+    "image": "/images/8.png"
+  },
+  {
+    "name": "Դար կորստյան",
+    "category": "Historical",
+    "price": 2,
+    "image": "/images/9.png"
+  },
+  {
+    "name": "Վերք Հայաստանի",
+    "category": "Historical",
+    "price": 1.5,
+    "image": "/images/13.png"
+  },
+  {
+    "name": "Վարդանանք",
+    "category": "Historical",
+    "price": 2,
+    "image": "/images/10.png"
+  },
+  {
+    "name": "Խաչքար",
+    "category": "Historical",
+    "price": 2.25,
+    "image": "/images/11.png"
+  },
+  {
+    "name": "10 հայ ականավոր թագուհիներ",
+    "category": "Historical",
+    "price": 1.8,
+    "image": "/images/14.png"
+  },
+  {
+    "name": "Զրույցներ",
+    "category": "Historical",
+    "price": 1.7,
+    "image": "/images/15.png"
+  },
+  {
+    "name": "Հայերենի ուղղագրական բառարան",
+    "category": "Dictionaries",
+    "price": 2,
+    "image": "/images/16.png"
+  },
+  {
+    "name": "Մանկավարժական բառարան",
+    "category": "Dictionaries",
+    "price": 2.8,
+    "image": "/images/17.png"
+  },
+  {
+    "name": "Դպրոցական բացատրական բառարան",
+    "category": "Dictionaries",
+    "price": 2.4,
+    "image": "/images/18.png"
+  },
+  {
+    "name": "Նկարազարդ դարձվածաբանական բառարան",
+    "category": "Dictionaries",
+    "price": 2.5,
+    "image": "/images/19.png"
+  },
+  {
+    "name": "ՀԱՅԵՐԵՆ-ՌՈՒՍԵՐԵՆ ուսումնա-գործնական ԲԱՌԱՐԱՆ",
+    "category": "Dictionaries",
+    "price": 1.9,
+    "image": "/images/20.png"
+  },
+  {
+    "name": "Ուղղագրական բացատրական բառգրքույկ",
+    "category": "Dictionaries",
+    "price": 2.2,
+    "image": "/images/21.png"
+  }
+]
