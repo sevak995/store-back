@@ -1,4 +1,5 @@
 import User from '../models/userModel.js';
+import bcrypt from 'bcryptjs';
 
 //for login
 export const loginController = async (req, res) => {
@@ -20,11 +21,33 @@ export const loginController = async (req, res) => {
 
 //for register
 export const registerController = async (req, res) => {
-  try {
-    const newUser = new User({ ...req.body, verified: true });
-    await newUser.save();
-    res.status(200).send('New User Added Successfully!');
-  } catch (error) {
-    console.log(error);
-  }
+  const { name, password, userId } = req.body;
+
+  User.findOne({ userId: userId })
+    .then((userDoc) => {
+      if (userDoc) {
+        req.flash(
+          'error',
+          'E-Mail exists already, please pick a different one.'
+        );
+        return res.redirect('/');
+      }
+      return bcrypt
+        .hash(password, 12)
+        .then((hashedPassword) => {
+          const user = new User({
+            name: name,
+            password: hashedPassword,
+            userId: userId,
+          });
+          return user.save();
+        })
+        .then((result) => {
+          console.log(result);
+          res.redirect('/');
+        });
+    })
+    .catch((err) => {
+      console.log(err);
+    });
 };
