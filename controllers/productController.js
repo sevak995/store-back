@@ -1,9 +1,20 @@
 import Product from '../models/productModel.js';
+import { getPagination } from '../utils/utils.js';
 
 //for add or fetch
+// export const getProductController = async (req, res) => {
+//   try {
+//     const products = await Product.find();
+//     res.status(200).send(products);
+//   } catch (error) {
+//     console.log(error);
+//   }
+// };
+
 export const getProductController = async (req, res) => {
+  const { skip, limit } = getPagination(req.query);
   try {
-    const products = await Product.find();
+    const products = await Product.find().skip(skip).limit(limit);
     res.status(200).send(products);
   } catch (error) {
     console.log(error);

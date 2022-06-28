@@ -124,5 +124,59 @@
     "category": "Dictionaries",
     "price": 2.2,
     "image": "/images/21.png"
+  },
+  {
+    "name": "Արշիլ Գորկի",
+    "category": "Fiction",
+    "price": 2.5,
+    "image": "/images/22.png"
+  },
+  {
+    "name": "Իրական Դասական",
+    "category": "Fiction",
+    "price": 3.1,
+    "image": "/images/23.png"
+  },
+  {
+    "name": "Հոլիվուդի կաղնին",
+    "category": "Fiction",
+    "price": 3.5,
+    "image": "/images/24.png"
+  },
+  {
+    "name": "Անտես քաղաքներ",
+    "category": "Fiction",
+    "price": 3.6,
+    "image": "/images/25.png"
+  },
+  {
+    "name": "Երկիր Նաիրի",
+    "category": "Fiction",
+    "price": 4.1,
+    "image": "/images/26.png"
+  },
+  {
+    "name": "Ռումբերով բացված ճանապարհ",
+    "category": "Fiction",
+    "price": 3.9,
+    "image": "/images/27.png"
+  },
+  {
+    "name": "Երկու մենություն",
+    "category": "Fiction",
+    "price": 3.9,
+    "image": "/images/28.png"
+  },
+  {
+    "name": "Երկրորդ սուրը",
+    "category": "Fiction",
+    "price": 3.9,
+    "image": "/images/29.png"
+  },
+  {
+    "name": "Բարև, հայրիկ",
+    "category": "Fiction",
+    "price": 3.9,
+    "image": "/images/30.png"
   }
 ]
